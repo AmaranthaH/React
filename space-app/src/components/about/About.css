@@ -1,0 +1,19 @@
+/* About.css */
+.about-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: var(--primary);
+    height: auto;
+    max-width: 200px;
+    border-radius: 15px;  
+    margin: 20px auto;
+    padding: 20px; 
+}
+
+.mi-imagen {
+    width: 150px;
+    height: auto;
+    margin-top: 20px; 
+}

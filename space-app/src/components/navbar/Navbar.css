@@ -1,0 +1,50 @@
+/* Navbar.css */
+nav {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px; /* Altura fija de la barra de navegación */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg);
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+.content {
+    margin-top: 70px; /* Margen superior para evitar la superposición */
+}
+
+nav > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+div > p {
+    color: var(--highlight);
+}
+
+.link {
+    justify-content: center;
+    color: var(--highlight);
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: var(--bg);
+    padding: 8px;
+    box-shadow: 
+    rgba(0,0,0,0.16) 0px 3px 6px,
+    rgba(0,0,0,0.23) 0px 3px 6px;
+    border-radius: 15px;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: var(--highlight);
+    color: var(--bg);
+}
